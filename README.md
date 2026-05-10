@@ -1,4 +1,5 @@
 # XSS 101 labs
+https://youtu.be/WxIA95JcqU4
 
 ## Reflected XSS
 by manipulating the name parameter you can cause your javascript to execute due to unsanitized server-side reflection
