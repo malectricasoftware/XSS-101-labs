@@ -1,4 +1,3 @@
-#imports
 from flask import Flask, render_template, request, redirect, session
 from os import path
 import lablib.posts
@@ -9,7 +8,7 @@ app = Flask(__name__)
 
 app.secret_key=secrets.token_urlsafe(16)
 
-#return the payload
+
 @app.route("/",methods=["GET","POST"])
 def index():
         if request.method == "GET":
